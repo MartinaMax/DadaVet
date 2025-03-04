@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 :root {
@@ -35,14 +36,11 @@ h2, h3 {
 p, li, a {
     font-family: "Roboto", sans-serif;
     line-height: 25px;
+     -webkit-tap-highlight-color: transparent;
 }
 
 a {
     text-decoration: none;
-}
-
-a:focus-visible {
-  outline: none;
 }
 
 li {
