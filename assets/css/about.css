@@ -1,0 +1,46 @@
+.section-about h2 {
+    text-align: center;
+}
+
+.section-about-1 {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.section-about-1 > p {
+    font-size: 20px;
+    max-width: 840px;
+    justify-self: center;
+}
+
+.section-about-2 {
+    background-color: var(--turquoise);
+    padding: 100px ;
+}
+
+.section-about-3 {
+    background-color: var(--turquoise_light);
+    padding: 100px ;
+    
+}
+
+.section-about-2 ul, 
+.section-about-3 ul {
+    align-self: center;
+}
+
+.section-about-2 ul li, 
+.section-about-3 ul li {
+    display: flex;
+    column-gap: 7px; 
+}
+
+.section-about-2 div,
+.section-about-3 div {
+    display: flex;
+    column-gap: 150px;
+}
+
+.about-img {
+    width: 400px;
+}
