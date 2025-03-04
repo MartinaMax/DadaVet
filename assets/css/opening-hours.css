@@ -23,11 +23,11 @@
     text-align: center;
     justify-self: center;
     border-collapse: collapse;
-    max-width: 330px;
+    width: 300px;
 }
 
 .table td {
-    max-width: 165px;
+    width: 150px;
     border: 1px solid var(--blackish);
     padding: 15px 15px;
 }
