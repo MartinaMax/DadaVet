@@ -259,6 +259,7 @@ nav {
     background-color: var(--turquoise_gray);
     color: var(--white);
     justify-items: center;
+    justify-content: center;
     padding: 30px 22px;
 }
 
