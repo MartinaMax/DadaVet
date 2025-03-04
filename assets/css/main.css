@@ -274,6 +274,7 @@ nav {
 
     .footer-bottom-flex {
         display: flex;
+        text-align: center;
         column-gap: 10px;
     }
 
