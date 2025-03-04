@@ -273,6 +273,7 @@ nav {
     }
 
     .footer-bottom-flex {
+        justify-items: center;
         display: flex;
         text-align: center;
         column-gap: 10px;
