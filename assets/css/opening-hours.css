@@ -21,14 +21,13 @@
 
 .table {
     text-align: center;
-/*     justify-self: center; */
-    justify-items: center;
+    justify-self: center;
     border-collapse: collapse;
-    width: 330px;
+    max-width: 330px;
 }
 
 .table td {
-    width: 165px;
+    max-width: 165px;
     border: 1px solid var(--blackish);
     padding: 15px 15px;
 }
