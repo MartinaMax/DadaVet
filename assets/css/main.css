@@ -258,8 +258,6 @@ nav {
     width: 100%;
     background-color: var(--turquoise_gray);
     color: var(--white);
-    justify-items: center;
-    justify-content: center;
     text-align: center;
     padding: 30px 22px;
 }
@@ -273,9 +271,8 @@ nav {
     }
 
     .footer-bottom-flex {
-        justify-items: center;
         display: flex;
-        text-align: center;
+        justify-content: center;
         column-gap: 10px;
     }
 
