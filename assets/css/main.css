@@ -41,6 +41,10 @@ a {
     text-decoration: none;
 }
 
+a:focus-visible {
+  outline: none;
+}
+
 li {
     list-style: none;
 }
