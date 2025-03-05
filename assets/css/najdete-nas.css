@@ -1,0 +1,45 @@
+.section-find {
+    max-width: 1040px;
+    margin: 30px 0;
+    text-align: center;
+    justify-self: center;
+    padding: 0 22px;
+}
+
+.section-find p {
+    padding: 15px 0;
+}
+
+.section-find-text_red {
+    color: #9F0000;
+}
+
+
+@media screen and (min-width: 600px) {
+    .section-find {
+        width: 540px;
+        margin: 50px 0;
+    }
+
+    .section-find p {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-find {
+        width: 660px;
+    }
+
+    .section-find p {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-find {
+        width: 840px;
+        margin: 100px 0;
+        padding: unset;
+    }
+}

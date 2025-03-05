@@ -1,0 +1,133 @@
+.h3-smaller {
+    font-size: 14px;
+}
+
+.section-appointment {
+    background-color: #BBB9B9;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.section-appointment h3 {
+    font-size: 12px;
+}
+
+.section-table {
+    width: 100%;
+    padding: 0 22px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.section-table > p {
+   padding: 0 20px;
+}
+
+.table {
+    text-align: center;
+    justify-self: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td {
+    width: 50%;
+    border: 1px solid var(--blackish);
+    padding: 15px 15px;
+}
+
+    .table td p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+@media screen and (min-width: 600px) {
+    .h3-smaller {
+        font-size: 18px;
+    }
+
+    .section-appointment {
+        display: flex;
+        column-gap: 15px;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .section-appointment h3 {
+        font-size: 14px;
+    }
+
+    .section-table {
+        margin: 50px 0;
+    }
+    
+    .table {
+        width: 540px;
+    }
+    
+    .table td {
+        width: 270px;
+        padding: 15px 15px;
+    }
+
+        .table td p {
+            font-size: 14px;
+            line-height: 16px;
+        }
+}
+
+
+@media screen and (min-width: 768px) {
+    .section-appointment h3 {
+        font-size: 18px;
+    }
+
+    .table {
+        width: 660px;
+    }
+    
+    .table td {
+        width: 330px;
+        padding: 20px 15px;
+    }
+
+        .table td p {
+            font-size: 14px;
+            line-height: 16px;
+        }
+}
+
+@media screen and (min-width: 1024px) {
+    .h3-smaller {
+        font-size: 20px;
+    }
+
+    .section-appointment {
+        column-gap: 30px;
+        padding: 25px;
+    }
+
+    .section-table {
+        margin: 100px 0;
+    }
+
+    .table {
+        width: 840px;
+    }
+
+    .table td {
+        width: 420px;
+        padding: 30px 15px;
+    }
+
+        .table td p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    .section-appointment h3 {
+        font-size: 20px;
+    }
+}
