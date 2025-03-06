@@ -76,7 +76,7 @@ li {
 .section-separation {
     height: 0.5px;
     background-color: var(--blackish);
-    max-width: 100%;
+    width: 100%;
     justify-self: center;
 }
 
@@ -215,7 +215,7 @@ h3 {
     .section-hero-1 {
         background-image: url('/assets/img/hero-1.jpg');
         background-position: 65%;
-        padding: 0 50px;
+        padding: 0 85px;
     }
 
     .section-hero-2 {
@@ -256,7 +256,7 @@ h3 {
     .section-quote {
         background-color: var(--turquoise_dark);
         color: var(--white);
-        padding: 15px 40px;
+        padding: 15px 50px;
         text-align: center;
     }
 
@@ -407,6 +407,17 @@ h3 {
         -o-transition: 0.1s ease-in;
     }
     
+    @media screen and (max-width: 400px) {
+        /* Quote section  */
+        .section-quote {
+            padding: 15px 22px;
+        }
+
+        .section-hero-1 {
+            padding: 20px 55px;
+        }
+    }
+
 /* Tablet */
 @media screen and (min-width: 600px) {
 
