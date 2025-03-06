@@ -460,6 +460,12 @@ h3 {
         column-gap: 30px;
     }
 
+    .map {
+        justify-self: center;
+        height: 400px; 
+        width: 540px; 
+    }
+
     /* Services section  */
     .section-sevices {
         justify-items: center;
@@ -494,6 +500,13 @@ h3 {
     .section-quote > p  {
         font-size: 18px;
      }
+
+
+    .map {
+        justify-self: center;
+        height: 400px; 
+        width: 660px; 
+    }
 
     /* Services section  */
     .section-sevices {
