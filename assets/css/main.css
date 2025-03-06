@@ -456,7 +456,7 @@ h3 {
 
     /* General section  */
     .section-general div {
-        display: flex;
+        /* display: flex; */
         column-gap: 30px;
     }
 
@@ -500,6 +500,10 @@ h3 {
     .section-quote > p  {
         font-size: 18px;
      }
+
+     .section-general div {
+        display: flex;
+    }
 
 
     .map {
