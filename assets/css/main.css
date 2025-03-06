@@ -41,6 +41,14 @@ p, li, a {
 a {
     text-decoration: none;
     -webkit-appearance: none;
+    color: var(--white);
+    -webkit-tap-highlight-color: transparent; 
+}
+
+a[href^="tel"] {
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a:focus {
@@ -68,7 +76,7 @@ li {
 .section-separation {
     height: 0.5px;
     background-color: var(--blackish);
-    width: 100%;
+    max-width: 100%;
     justify-self: center;
 }
 
@@ -77,6 +85,13 @@ li {
     width: 30px;
     height: 30px;
 }
+
+.map {
+    justify-self: center;
+    height: 400px; 
+    width: 100%; 
+}
+
 
 
 /* Heading size phone */
@@ -237,8 +252,6 @@ h3 {
             margin-bottom: 10px;
         }
 
-
-
     /* Quote section  */
     .section-quote {
         background-color: var(--turquoise_dark);
@@ -264,12 +277,6 @@ h3 {
         padding: 15px 0;
     }
 
-    .map {
-        justify-self: center;
-        height: 400px; 
-        width: 100%; 
-    }
-
     /* Services section  */
     .section-sevices {
         justify-items: center;
@@ -277,6 +284,7 @@ h3 {
     }
 
     .section-sevices > h2 {
+        font-weight: 500;
         margin-bottom: 30px;
         text-align: center;
     }
@@ -422,6 +430,11 @@ h3 {
         height: 40px;
     }
 
+    .map {
+        height: 400px; 
+        width: 560px; 
+    }
+
     /* Hero section */
     .section-hero {
         height: 300px;
@@ -439,12 +452,6 @@ h3 {
     .section-general div {
         display: flex;
         column-gap: 30px;
-    }
-
-    .map {
-        /* justify-self: center; */
-        height: 400px; 
-        width: 560px; 
     }
 
     /* Services section  */
@@ -534,6 +541,11 @@ h3 {
         width: 840px;
     }
 
+    .map {
+        width: 700px;
+        height:450px;
+     }
+
      /* Hero section */
      .section-hero {
         height: 500px;
@@ -589,12 +601,6 @@ h3 {
         .section-general-h2 {
             padding: 30px 0;
         }
-
-     .map {
-        width:800px;
-        height:450px;
-     }   
-
 
      /* Quote section  */
     .section-quote {
