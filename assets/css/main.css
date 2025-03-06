@@ -256,7 +256,7 @@ h3 {
     .section-quote {
         background-color: var(--turquoise_dark);
         color: var(--white);
-        padding: 15px 55px;
+        padding: 15px 50px;
         text-align: center;
     }
 
@@ -407,7 +407,7 @@ h3 {
         -o-transition: 0.1s ease-in;
     }
     
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 390px) {
         /* Quote section  */
         .section-quote {
             padding: 15px 22px;
