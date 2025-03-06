@@ -139,18 +139,31 @@ function toggleAccordion(element) {
 
 
 // Back to top button
-mybutton = document.getElementById("btnTop"); 
+const mybutton = document.getElementById("btnTop");
 
-window.onscroll = function() {scrollFunction()};
+// Detect screen size and adjust scroll threshold
+function getScrollThreshold() {
+  return window.innerWidth <= 768 ? 100 : 200; // 100px for phones, 200px for desktops
+}
+
+// Show/hide the button when scrolling
+window.onscroll = function() {
+  scrollFunction();
+};
 
 function scrollFunction() {
-  if (document.documentElement.scrollTop > 200) { 
-    mybutton.style.display = "block"; 
-  } else { 
-    mybutton.style.display = "none"; 
+  const scrollThreshold = getScrollThreshold();
+  if (document.documentElement.scrollTop > scrollThreshold) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
   }
 }
 
-function toTop() { 
-  document.documentElement.scrollTop = 0; 
+// Smooth scroll to the top
+function toTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
 }
