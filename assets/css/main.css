@@ -409,11 +409,17 @@ h3 {
     }
     
     @media screen and (max-width: 390px) {
+        /* Navigation */
+        .nav-top {
+            padding: 15px 59px;
+        }
+
         /* Quote section  */
         .section-quote {
             padding: 15px 22px;
         }
 
+        /* Hero section */
         .section-hero-1 {
             padding: 20px 55px;
         }
