@@ -396,7 +396,7 @@ h3 {
         display: flex;
         position: fixed;
         z-index: 99;
-        bottom: 65px;
+        bottom: 85px;
         right: 30px;
         padding: 10px;
         border-radius: 50%;
