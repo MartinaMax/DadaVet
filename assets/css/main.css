@@ -180,7 +180,7 @@ h3 {
 #burger {
     border-top: solid var(--gray) 0.2px;
     width: 100%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 /* Close Icon - Initially Hidden */
