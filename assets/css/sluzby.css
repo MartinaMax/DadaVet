@@ -39,6 +39,7 @@
         }
 
     .accordion-content {
+        overflow: hidden;
         padding: 0 0 50px 20px;
         display: none;
     }
