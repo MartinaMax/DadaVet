@@ -407,10 +407,10 @@ h3 {
         -ms-transition: 0.1s ease-in;
         -o-transition: 0.1s ease-in;
     }
-    
-    @media screen and (max-width: 391px) {
-        /* Navigation */
-        .nav-top {
+
+    @media screen and (max-width: 376px) {
+         /* Navigation */
+         .nav-top {
             padding: 15px 59px;
         }
 
@@ -422,6 +422,23 @@ h3 {
         /* Hero section */
         .section-hero-1 {
             padding: 20px 55px;
+        }
+    }
+    
+    @media screen and (max-width: 392px) {
+        /* Navigation */
+        .nav-top {
+            padding: 15px 10px;
+        }
+
+        /* Quote section  */
+        .section-quote {
+            padding: 15px 22px;
+        }
+
+        /* Hero section */
+        .section-hero-1 {
+            padding: 20px 70px;
         }
     }
 
