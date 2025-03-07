@@ -407,23 +407,6 @@ h3 {
         -ms-transition: 0.1s ease-in;
         -o-transition: 0.1s ease-in;
     }
-
-    @media screen and (max-width: 376px) {
-         /* Navigation */
-         .nav-top {
-            padding: 15px 59px;
-        }
-
-        /* Quote section  */
-        .section-quote {
-            padding: 15px 22px;
-        }
-
-        /* Hero section */
-        .section-hero-1 {
-            padding: 20px 55px;
-        }
-    }
     
     @media screen and (max-width: 392px) {
         /* Navigation */
@@ -441,6 +424,23 @@ h3 {
             padding: 20px 70px;
         }
     }
+
+    @media screen and (max-width: 375px) {
+        /* Navigation */
+        .nav-top {
+           padding: 15px 59px;
+       }
+
+       /* Quote section  */
+       .section-quote {
+           padding: 15px 22px;
+       }
+
+       /* Hero section */
+       .section-hero-1 {
+           padding: 20px 55px;
+       }
+   }
 
 /* Tablet */
 @media screen and (min-width: 600px) {
