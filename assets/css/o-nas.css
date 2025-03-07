@@ -15,12 +15,12 @@
 
 .section-about-2 {
     justify-content: center;
-    background-color: var(--turquoise);
+    background-color: var(--turquoise_light);
     padding: 30px 22px;
 }
 
 .section-about-3 {
-    background-color: var(--turquoise_light);
+    background-color: #D7EFF3;
     padding: 30px 22px;
 }
 
